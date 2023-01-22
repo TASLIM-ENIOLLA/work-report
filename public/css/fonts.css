@@ -1,0 +1,30 @@
+@font-face{
+	font-family: gd-sage;
+	src: url(../fonts/gd/gd-sage-bold.woff2);
+}
+@font-face{
+	font-family: gd-sherpa;
+	src: url(../fonts/gd/gd-sherpa-vf.woff2);
+}
+@font-face{
+	font-family: MontserratLight;
+	src: url(../fonts/montserrat/Montserrat-Light.ttf);
+}
+@font-face{
+	font-family: MontserratRegular;
+	src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+	font-family: MontserratMedium;
+	src: url(../fonts/montserrat/Montserrat-Medium.ttf);
+}
+@font-face{
+	font-family: MontserratBold;
+	src: url(../fonts/montserrat/Montserrat-Bold.ttf);
+}
+.gd-sage{
+	font-family: gd-sage;
+}
+.font-bold{
+	font-family: MontserratBold;
+}

@@ -1,0 +1,102 @@
+.text-blue{color: var(--blue)}
+.bg-blue{background-color: var(--blue)}
+.text-indigo{color: var(--indigo)}
+.bg-indigo{background-color: var(--indigo)}
+.text-purple{color: var(--purple)}
+.bg-purple{background-color: var(--purple)}
+.text-pink{color: var(--pink)}
+.bg-pink{background-color: var(--pink)}
+.text-red{color: var(--red)}
+.bg-red{background-color: var(--red)}
+.text-orange{color: var(--orange)}
+.bg-orange{background-color: var(--orange)}
+.text-yellow{color: var(--yellow)}
+.bg-yellow{background-color: var(--yellow)}
+.text-green{color: var(--green)}
+.bg-green{background-color: var(--green)}
+.text-teal{color: var(--teal)}
+.bg-teal{background-color: var(--teal)}
+.text-cyan{color: var(--cyan)}
+.bg-cyan{background-color: var(--cyan)}
+.text-white{color: var(--white)}
+.bg-white{background-color: var(--white)}
+.text-gray{color: var(--gray)}
+.bg-gray{background-color: var(--gray)}
+.text-gray-dark{color: var(--gray-dark)}
+.bg-gray-dark{background-color: var(--gray-dark)}
+.text-primary{color: var(--primary)}
+.bg-primary{background-color: var(--primary)}
+.text-secondary{color: var(--secondary)}
+.bg-secondary{background-color: var(--secondary)}
+.text-success{color: var(--success)}
+.bg-success{background-color: var(--success)}
+.text-info{color: var(--info)}
+.bg-info{background-color: var(--info)}
+.text-warning{color: var(--warning)}
+.bg-warning{background-color: var(--warning)}
+.text-danger{color: var(--danger)}
+.bg-danger{background-color: var(--danger)}
+.text-light{color: var(--light)}
+.bg-light{background-color: var(--light)}
+.text-light{color: var(--light)}
+.bg-light{background-color: var(--light)}
+.text-dark{color: var(--dark)}
+.bg-dark{background-color: var(--dark)}
+
+*{
+    font-size: 12.5px;
+}
+.bold{
+    font-weight: 900 !important;
+}
+.rounded-2x{
+    border-radius: 20px !important;
+}
+.rounded-1x{
+    border-radius: 10px !important;
+}
+.fs-1x{
+    font-size: 1rem !important;
+}
+.fs-1half{
+    font-size: 1.5rem !important;
+}
+.fs-2x{
+    font-size: 2rem !important;
+}
+.fs-3x{
+    font-size: 3rem !important;
+}
+.fs-4x{
+    font-size: 4rem !important;
+}
+.fs-5x{
+    font-size: 5rem !important;
+}
+.fs-6x{
+    font-size: 6rem !important;
+}
+.bg-clear{
+    background-color: transparent !important;
+}
+.outline-0{
+    outline: none !important;
+}
+.box-shadow-0{
+    box-shadow: none !important;
+}
+.overflow-y-auto{
+    overflow-y: auto !important;
+}
+.overflow-x-auto{
+    overflow-x: auto !important;
+}
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+.resize-0{
+    resize: none;
+}
+button::hover{
+    opacity: .7;
+}
