@@ -10,15 +10,15 @@ export default function TabBody(){
 	function getTabComponent(tabName){
 		const [firstOne] = Tabs.filter(({name}) => name === tabName)
 		const {component} = firstOne
-		
+
 		return component
 	}
 
 	return (
-		<section className = {`row bg-light shadow-sm border py-5 ${styles.tab_body}`}>
-			<div className = 'col-12'>
+		<section id = 'tab-page-title' className = {`row bg-white shadow-sm border py-5 ${styles.tab_body}`}>
+			<div className = 'col-12 px-4'>
 				<h2 className = 'gd-sage text-capitalize'>{tabTitle}</h2>
-				<section className = 'pt-5'>
+				<section className = 'pt-3'>
 					{getTabComponent(tabName)}
 				</section>
 			</div>

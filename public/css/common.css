@@ -46,6 +46,18 @@
 *{
     font-size: 12.5px;
 }
+
+body{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(/images/1.png);
+    backdrop-filter: grayscale(1);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
 .bold{
     font-weight: 900 !important;
 }
@@ -99,4 +111,11 @@
 }
 button::hover{
     opacity: .7;
+}
+.text-sentence::first-letter{
+    text-transform: capitalize;
+}
+.max-w-75{
+    width: auto;
+    max-width: 75%;
 }

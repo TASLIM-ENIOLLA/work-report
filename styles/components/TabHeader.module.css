@@ -1,6 +1,6 @@
 .tab_header{
 	border-bottom: 3px solid var(--cyan);
-	gap: 5px;
+	gap: 10px;
 }
 .tab_button{
 	border-top-left-radius: 5px;

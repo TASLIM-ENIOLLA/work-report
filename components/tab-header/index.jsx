@@ -23,7 +23,7 @@ export default function SPARoute(){
 				<button key = {name} onClick = {() => switchTab(name)} className = {`${styles.tab_button} ${(
 					(name === tabName)
 					? 'bg-cyan'
-					: ' bg-dark'
+					: 'bg-dark'
 				)} border-0 outline-0 gd-sage text-capitalize text-white p-3`}>
 					{title}
 				</button>
